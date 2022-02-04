@@ -5,12 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".signUp_activity"
+    android:id="@+id/sign_up"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -100,7 +106,7 @@
                 android:padding="10dp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_up"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#AE580D"
@@ -145,6 +151,7 @@
                     android:layout_marginEnd="5dp"
                     android:background="@drawable/dtn" />
 
+
             </LinearLayout>
 
             <LinearLayout
@@ -180,8 +187,24 @@
                     android:text="Google"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
+
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="Aleady have Account ? Login"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
         </LinearLayout>
+</ScrollView>
     </LinearLayout>
+
 </LinearLayout>

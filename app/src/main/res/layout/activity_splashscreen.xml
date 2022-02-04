@@ -4,16 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#36DC12"
+    android:background="#DC861E"
     tools:context=".Splashscreen">
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="270dp"
         android:layout_height="302dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/foodback" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="232dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="108dp"
+        android:fontFamily="@font/cursive"
+        android:gravity="center"
+        android:text="WELCOME"
+
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
